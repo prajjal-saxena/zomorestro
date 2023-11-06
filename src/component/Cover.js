@@ -6,7 +6,7 @@ import styled from 'styled-components'
 const Cover = () => {
   return (
    <Wrapper>
-        <Stack style={{position: 'absolute', top: '0px', width:  '100%'}}>
+        <Stack style={{position: 'relative', bottom: "80px", width:  '100%'}}>
             <Stack sx={{position: 'relative'}}>
                 <img src='/cover.png' className='coverHome'></img>
                 <Stack sx={{position: 'absolute', height: '750px', width: '100%', justifyContent: 'center', alignItems: 'center'}}>

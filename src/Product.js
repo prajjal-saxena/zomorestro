@@ -40,7 +40,7 @@ const Product = () => {
                                 
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>
@@ -51,7 +51,7 @@ const Product = () => {
 
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>
@@ -61,7 +61,7 @@ const Product = () => {
                                   </Grid>
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>
@@ -71,7 +71,7 @@ const Product = () => {
                                   </Grid>
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>
@@ -81,7 +81,7 @@ const Product = () => {
                                   </Grid>
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>
@@ -91,7 +91,7 @@ const Product = () => {
                                   </Grid>
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>
@@ -101,7 +101,7 @@ const Product = () => {
                                   </Grid>
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>
@@ -111,7 +111,7 @@ const Product = () => {
                                   </Grid>
                                   <Grid item xs={2} sm={4} md={4}>
                                       <Item>
-                                          <img width='100%' height='250px' src="/home1.jpg" alt="" />
+                                          <img width='100%' height='150px' src="/home1.jpg" alt="" />
                                           <Stack sx={{flexDirection: "row"}} justifyContent='space-between'>
                                               <Typography variant='p'><strong>Idli</strong></Typography>
                                               <Typography variant='p'><strong>Rs 50</strong></Typography>

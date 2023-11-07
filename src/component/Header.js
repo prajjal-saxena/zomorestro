@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
      <Wrapper>
-          <Navbar expand="lg" className="bg-body-tertiary navi" style={{position: 'relative',zIndex : '5'}}>
+          <Navbar expand="lg" className="bg-body-tertiary navi" style={{position: 'fixed', top: '31px', width: "100%",zIndex : '5'}}>
             <Container>
                 <Navbar.Brand href="#home">React</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,7 +30,7 @@ const Header = () => {
 const Wrapper = styled.div`
 .navbar,
 .navbar-default{
-    background: #ffffff3d!important;
+    background: #000000b5!important;
 }
 .navi a{
     color: #fff;

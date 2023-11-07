@@ -1,15 +1,19 @@
 const Shop = [
     {
-        id : "1",
-        name : "Aggarwal Restaurant"
+        id : 1,
+        name : "Aggarwal Restaurant",
+        dishes :[1, 2, 3, 4, 5, 6, 7, 8]
+    },
+
+    {
+        id : 2,
+        name : "Cazzy Restaurant",
+        dishes :[1, 2, 3, 4, 5, 6, 7, 8]
     },
     {
-        id : "2",
-        name : "Cazzy Restaurant"
-    },
-    {
-        id : "3",
-        name : "Delight Restaurant"
+        id : 3,
+        name : "Delight Restaurant",
+        dishes :[1, 2, 3, 4, 5, 6, 7, 8]
     }
 ]
 

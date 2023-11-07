@@ -1,5 +1,6 @@
 import { Container, Typography } from '@mui/material'
 import React from 'react'
+import { Stack } from 'react-bootstrap';
 // import { Container } from 'react-bootstrap'
 import Slider from "react-slick";
 
@@ -11,36 +12,59 @@ const TopRestro = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
-      //   autoplay: true,
-      //   autoplaySpeed: 2000,
-        arrow: true
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrow: false
       };
 
   return (
     <>
     <Container>
-        <Typography variant='h3' textAlign='center'>Top Restraurants</Typography>
-        <div>
-        <Slider {...settings}>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
+        <div style={{marginBottom: "80px"}}>
+        <Stack direction= 'horizontal'>
+           <Stack style={{width: "20%"}}><img src="/top/toprestro.png" width='40%' alt="" /></Stack>
+           <Stack style={{width: "80%"}}>
+                <Slider {...settings}>
+                <div>
+                  <div style={{display: "flex", justifyContent: "center"}}>
+                    <img src="/top/top1.png" width="40%" alt="" /> 
+                  </div>
+                  <p style={{textAlign: "center", color: "#fff"}}>Agarwal Restraurant</p>
+                </div>
+                <div>
+                  <div style={{display: "flex", justifyContent: "center"}}>
+                    <img src="/top/top2.png" width="40%" alt="" /> 
+                  </div>
+                  <p style={{textAlign: "center", color: "#fff"}}>Food Bus</p>
+                </div>
+                <div>
+                  <div style={{display: "flex", justifyContent: "center"}}>
+                    <img src="/top/top3.png" width="40%" alt="" /> 
+                  </div>
+                  <p style={{textAlign: "center", color: "#fff"}}>Good Bowl</p>
+                </div>
+                <div>
+                  <div style={{display: "flex", justifyContent: "center"}}>
+                    <img src="/top/top4.png" width="40%" alt="" /> 
+                  </div>
+                  <p style={{textAlign: "center", color: "#fff"}}>Sassy Indian</p>
+                </div>
+                <div>
+                  <div style={{display: "flex", justifyContent: "center"}}>
+                    <img src="/top/top5.png" width="40%" alt="" /> 
+                  </div>
+                  <p style={{textAlign: "center", color: "#fff"}}>Spice Bazzar</p>
+                </div>
+                <div>
+                  <div style={{display: "flex", justifyContent: "center"}}>
+                    <img src="/top/top6.png" width="40%" alt="" /> 
+                  </div>
+                  <p style={{textAlign: "center", color: "#fff"}}>Murthalwala</p>
+                </div>
+              </Slider>
+           </Stack>
+        </Stack>
+        
       </div>
       </Container>
       </> 
